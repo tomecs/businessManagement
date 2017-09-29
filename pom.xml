@@ -181,21 +181,11 @@
       <artifactId>commons-net</artifactId>
       <version>3.3</version>
     </dependency>
-    <!-- Jackson Json处理工具包 -->
-    <dependency>
-      <groupId>com.fasterxml.jackson.core</groupId>
-      <artifactId>jackson-core</artifactId>
-      <version>2.6.0</version>
-    </dependency>
-    <dependency>
-      <groupId>com.fasterxml.jackson.core</groupId>
-      <artifactId>jackson-databind</artifactId>
-      <version>2.4.2</version>
-    </dependency>
+    <!-- 映入JSON -->
     <dependency>
       <groupId>org.codehaus.jackson</groupId>
       <artifactId>jackson-mapper-asl</artifactId>
-      <version>1.5.0</version>
+      <version>1.9.13</version>
     </dependency>
     <!-- 单元测试 -->
     <dependency>
@@ -285,7 +275,38 @@
       <artifactId>ehcache</artifactId>
       <version>2.8.1</version>
     </dependency>
-
+    <!--apache shiro  -->
+    <dependency>
+      <groupId>org.apache.shiro</groupId>
+      <artifactId>shiro-core</artifactId>
+      <version>1.2.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.shiro</groupId>
+      <artifactId>shiro-web</artifactId>
+      <version>1.2.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.shiro</groupId>
+      <artifactId>shiro-ehcache</artifactId>
+      <version>1.2.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.shiro</groupId>
+      <artifactId>shiro-spring</artifactId>
+      <version>1.2.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.shiro</groupId>
+      <artifactId>shiro-quartz</artifactId>
+      <version>1.2.2</version>
+    </dependency>
+    <!-- 格式化对象，方便输出日志 -->
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>fastjson</artifactId>
+      <version>1.1.41</version>
+    </dependency>
     <!-- cglib动态代理 -->
     <dependency>
       <groupId>cglib</groupId>
